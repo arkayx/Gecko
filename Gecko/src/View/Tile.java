@@ -27,7 +27,7 @@ public class Tile extends JComponent{
 	}
 
 	private void ComputeTilePoints(){
-		xA = parentWidth / 2 + (tileWidth * x) / 2 +  - (tileWidth * y) / 2 + offsetX;
+		xA = parentWidth / 2 + (tileWidth * x) / 2 - (tileWidth * y) / 2 + offsetX;
 		xB = xA + tileWidth / 2;
 		xC = xA;
 		xD = xA - tileWidth / 2;
